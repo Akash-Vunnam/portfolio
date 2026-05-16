@@ -9,6 +9,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Logo from './components/Logo';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -22,6 +23,7 @@ function App() {
 
   return (
     <div className="font-sans antialiased bg-brand-light dark:bg-gray-900 transition-colors duration-300 min-h-screen">
+      <Analytics />
       <AnimatePresence>
         {loading && (
           <motion.div 
