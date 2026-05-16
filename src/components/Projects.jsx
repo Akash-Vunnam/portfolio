@@ -7,7 +7,7 @@ const Projects = () => {
     {
       title: "VoiceGYM",
       description: "A specialized application focusing on voice-based exercises and interactions, enhancing users' vocal abilities through guided practice.",
-      image: "/images/voicegym.png",
+      image: "/images/voicegym.jpg",
       tags: ["HTML", "CSS", "JavaScript", "Python", "MediaPipe"],
       link: "#",
       github: "#"
