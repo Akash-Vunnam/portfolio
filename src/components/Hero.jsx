@@ -36,7 +36,7 @@ const Hero = () => {
         >
           <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-xl bg-white dark:bg-gray-700 flex items-center justify-center">
             <img 
-              src="/profile.png" 
+              src="/profile.jpg" 
               alt="Vunnam Akash Reddy"
               className="w-full h-full object-cover scale-[1.25]"
               onError={(e) => { e.target.onerror = null; e.target.style.display = 'none'; }}
